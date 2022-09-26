@@ -6,7 +6,7 @@ Atualmente, o código considera apenas vitórias ou derrotas, não ocorrendo nen
 
 ROADMAP
 - Incluir empates - Será determinado uma diferença mínima (algo parecido com margem de erro) - A ser definido
-- Fator Casa (onde o time jogando em casa, tem maiores chances de vitória) - Será acrescentado com base na média de público no ano de 2021. A cada 10k, 1% será acrescentado. Foi definido um mínimo de 8k de média para alguns times.
+- Fator Casa (onde o time jogando em casa, tem maiores chances de vitória) - Será acrescentado 10% do valor Motivate para o time da casa.
 - Melhorar o algoritimo, para que ele seja mais condizente com a realidade.
   - Foi alterado seguindo o aproveitamento do ano. Também foi levado em conta a dificuldade da competição.
     - Estaduais - Peso 0,5
