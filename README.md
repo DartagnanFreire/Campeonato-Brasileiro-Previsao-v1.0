@@ -13,5 +13,6 @@ ROADMAP
     - Nacionais - Peso 1
     - Continentais - Peso 2
     - Internacionais - Peso 3 
-    Isso fez com que times como o Atlético Mineiro tivesse mais peso no ano, já que o ranking da CBF leva em conta os últimos 5 anos, favorecendo demais o Palmeiras e o     Flamengo.
+    
+Isso fez com que times como o Atlético Mineiro tivesse mais peso no ano, já que o ranking da CBF leva em conta os últimos 5 anos, favorecendo demais o Palmeiras e o     Flamengo.
 - Melhorar o código para ser mais clean e de acordo com a PEP8
