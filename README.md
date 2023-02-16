@@ -19,3 +19,4 @@ ROADMAP
 - Melhorar o código para ser mais clean e de acordo com a PEP8
 
 Atualização: Melhorando o código e trazendo para o ano de 2023, com base no rendimento dos times de 2022. Também foram incluidos os times que subiram de divisão e excluídos os que foram rebaixados.
+Para esse ano, decidi não utilizar os pesos dos campeonatos.
