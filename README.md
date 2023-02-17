@@ -20,3 +20,5 @@ ROADMAP
 
 Atualização: Melhorando o código e trazendo para o ano de 2023, com base no rendimento dos times de 2022. Também foram incluidos os times que subiram de divisão e excluídos os que foram rebaixados.
 Para esse ano, decidi não utilizar os pesos dos campeonatos.
+Porém, decidi utilizar a proporção de gols feitos/gols tomados, fazendo com que um time que tenha uma razão maior tenha vantagem.
+  Exemplo: o Palmeiras fez 139 gols e sofreu 49, o que da uma razão de 65.47 a mais de gols feitos. Já o Flamengo, apesar de ter feito 144 gols no ano, sofreu 70, o que significa que tem uma razão de 51.39, neste caso, o Palmeiras tem uma leve vantagem. Também será utilizado o fator casa, no qual o time jogando no seu estádio, terá um acréscimo de 15% no fator motivacional.
