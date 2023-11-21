@@ -1,0 +1,26 @@
+# Campeonato-Brasileiro-Previsao
+Prevendo o campeão brasileiro com base no aproveitamento de todos os campeonatos brasileiros desde 2003 e com dados incluidos também da Copa do Brasil, a partir de 2003.
+A ideia é pegar os dados dos confrontos individualmente, ou seja, estipular o xG de cada time com base no adversario.
+Um confronto entre Botafogo x Palmeiras, vai levar em consideração apenas os confrontos entre os dois times, com o Botafogo como mandante.
+Já um Palmeiras x Botafogo, leva em consideração os jogos entre os dois, com o Palmeiras como mandante. Isso ajuda a incluir o fator Casa na conta.
+
+Para o modelo, utilizei poisson, que me traz as possibilidades de determinado evento acontecer.
+Utilizando esse modelo, gerei as possibilidades de cada time fazer um gol com base na sua performance, e a partir disso, cruzei os dados para montar os resultados.
+Limitei a no máximo 5 gols, já que é pouco provável que algum time chegue a esse resultado.
+
+Depois, trouxe os 10 resultados mais possiveis e gravei cada um deles em uma tabela.
+Sim, esse modelo gera 10 tabelas com os resultados possiveis a cada rodada, sendo a tabela1 as com os resultados mais possiveis em cada rodada, e a tabela10 
+com o menos provável dentre os 10 primeiros (pois o modelo gera até 36 resultados diferentes, do 0 x 0 ao 5 x 5 e suas possibilidades)
+
+A minha ideia futura é cruzar 5 resultados de cada partida, com todos os outros resultados, porém, ainda não sei como chegar nessa etapa, 
+ja que hoje é gerada 10 possibilidades de final de campeonato, e no modelo que eu quero, só na primeira rodada seria 9,765,625 de combinações, 
+isso diminuindo para os 5 primeiros resultados provaveis, e 371.093.750 no final do campeonato.
+
+Mas como utilizo metodologia ágil, estou realizando pequenos entregáveis.
+
+O primeiro código utilizava uma métrica bem ruim para prever, com base nos pontos conquistados em cada campeonato e gerando assim um ranking.
+Hoje, o código utiliza o xG de cada time, que é uma métrica consolidada no meio esportivo.
+Inclusive, nesse código eu trago também a somatória de possibilidades de vitória de cada time, com as odds chegando PRÓXIMAS dos sites de aposta atuais.
+
+
+
